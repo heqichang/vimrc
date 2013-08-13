@@ -1,4 +1,3 @@
-
 set ts=4
 set shiftwidth=4
 set expandtab
@@ -8,6 +7,8 @@ set nocompatible
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
+" 在windows下的话 https://github.com/gmarik/vundle/wiki/Vundle-for-Windows
+" set rtp+=$HOME/vimfiles/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'

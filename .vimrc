@@ -20,5 +20,5 @@ Bundle 'EasyMotion'
 filetype plugin indent on
 
 let g:EasyMotion_leader_key = '<Space>'
-map <F5> :w<cr>:!python %<cr>
+autocmd FileType python map <F5> :w<cr>:!python %<cr>
 

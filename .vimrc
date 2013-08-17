@@ -4,6 +4,7 @@ set shiftwidth=4
 set expandtab
 set nu
 
+" vundle config
 set nocompatible
 filetype off
 
@@ -17,7 +18,11 @@ Bundle 'SuperTab'
 Bundle 'EasyMotion'
 
 filetype plugin indent on
+" end vundle config
 
-let g:EasyMotion_leader_key = '<Space>'
-map <F5> :w<cr>:!python %<cr>
+
+autocmd FileType python map <F5> :w<cr>:!python %<cr>
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
 

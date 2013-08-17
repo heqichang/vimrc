@@ -21,14 +21,8 @@ Bundle 'EasyMotion'
 filetype plugin indent on
 " end vundle config
 
-<<<<<<< HEAD
 
 autocmd FileType python map <F5> :w<cr>:!python %<cr>
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
-=======
-let g:EasyMotion_leader_key = '<Space>'
-autocmd FileType python map <F5> :w<cr>:!python %<cr>
->>>>>>> 765bb454b9d8c01aeb90b0bf9abd775697a8c5e0
-

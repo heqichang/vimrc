@@ -17,6 +17,7 @@ Bundle 'gmarik/vundle'
 Bundle 'The-NERD-tree'
 Bundle 'SuperTab'
 Bundle 'EasyMotion'
+Bundle 'bufexplorer.zip'
 
 filetype plugin indent on
 " end vundle config
